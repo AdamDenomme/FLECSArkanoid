@@ -1,0 +1,32 @@
+# Blender 4.1.1 MTL File: 'Template.blend'
+# www.blender.org
+
+newmtl Highlights.004
+Kd 0.231946 0.236550 0.180764
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+Pr 0.690035
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+
+newmtl Main.004
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+Pr 0.690035
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd C:/Users/kdlit/OneDrive/Documents/GitHub/dev4-team-project-2406-team-green-2406/Anvil Ascension/build/Textures/Stone.jpg

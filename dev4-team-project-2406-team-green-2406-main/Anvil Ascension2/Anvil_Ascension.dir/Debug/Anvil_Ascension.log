@@ -1,0 +1,138 @@
+﻿main.obj : error LNK2019: unresolved external symbol ecs_init referenced in function "public: __cdecl flecs::world::world(void)" (??0world@flecs@@QEAA@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_fini referenced in function "public: __cdecl flecs::world::~world(void)" (??1world@flecs@@QEAA@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_async_stage_free referenced in function "public: __cdecl flecs::world::~world(void)" (??1world@flecs@@QEAA@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_stage_is_async referenced in function "public: __cdecl flecs::world::~world(void)" (??1world@flecs@@QEAA@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_get_world referenced in function "public: __cdecl flecs::entity_view::entity_view(struct ecs_world_t *,unsigned __int64)" (??0entity_view@flecs@@QEAA@PEAUecs_world_t@@_K@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_entity_init referenced in function "public: __cdecl flecs::filter_builder<struct BlenderName,struct ModelTransform>::filter_builder<struct BlenderName,struct ModelTransform>(struct ecs_world_t *,char const *)" (??0?$filter_builder@UBlenderName@@UModelTransform@@@flecs@@QEAA@PEAUecs_world_t@@PEBD@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_remove_id referenced in function "void __cdecl flecs::meta::_::init(struct flecs::world &)" (?init@_@meta@flecs@@YAXAEAUworld@3@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_set_with referenced in function "public: static unsigned __int64 __cdecl flecs::_::cpp_type_impl<struct BlenderName>::id(struct ecs_world_t *,char const *,bool)" (?id@?$cpp_type_impl@UBlenderName@@@_@flecs@@SA_KPEAUecs_world_t@@PEBD_N@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_get_id referenced in function "public: struct ModelTransform const * __cdecl flecs::entity_view::get<struct ModelTransform,0>(void)const " (??$get@UModelTransform@@$0A@@entity_view@flecs@@QEBAPEBUModelTransform@@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_get_mut_id referenced in function "public: struct BoundingBox * __cdecl flecs::entity::get_mut<struct BoundingBox>(void)const " (??$get_mut@UBoundingBox@@@entity@flecs@@QEBAPEAUBoundingBox@@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_modified_id referenced in function "void __cdecl flecs::set<struct BlenderName,0>(struct ecs_world_t *,unsigned __int64,struct BlenderName &&,unsigned __int64)" (??$set@UBlenderName@@$0A@@flecs@@YAXPEAUecs_world_t@@_K$$QEAUBlenderName@@1@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_is_valid referenced in function "public: bool __cdecl flecs::entity_view::is_valid(void)const " (?is_valid@entity_view@flecs@@QEBA_NXZ)
+main.obj : error LNK2019: unresolved external symbol ecs_exists referenced in function "public: static unsigned __int64 __cdecl flecs::_::cpp_type_impl<signed char>::id_explicit(struct ecs_world_t *,char const *,bool,unsigned __int64,bool,bool *)" (?id_explicit@?$cpp_type_impl@C@_@flecs@@SA_KPEAUecs_world_t@@PEBD_N_K2PEA_N@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_has_id referenced in function "public: void __cdecl flecs::_::sig<struct BlenderName,struct ModelTransform>::populate<struct flecs::filter_builder<struct BlenderName,struct ModelTransform> *>(struct flecs::filter_builder<struct BlenderName,struct ModelTransform> * const &)" (??$populate@PEAU?$filter_builder@UBlenderName@@UModelTransform@@@flecs@@@?$sig@UBlenderName@@UModelTransform@@@_@flecs@@QEAAXAEBQEAU?$filter_builder@UBlenderName@@UModelTransform@@@2@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_get_symbol referenced in function "public: static unsigned __int64 __cdecl flecs::_::cpp_type_impl<signed char>::id_explicit(struct ecs_world_t *,char const *,bool,unsigned __int64,bool,bool *)" (?id_explicit@?$cpp_type_impl@C@_@flecs@@SA_KPEAUecs_world_t@@PEBD_N_K2PEA_N@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_lookup_path_w_sep referenced in function "public: struct flecs::entity __cdecl flecs::world::lookup(char const *)const " (?lookup@world@flecs@@QEBA?AUentity@2@PEBD@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_set_scope referenced in function "public: static unsigned __int64 __cdecl flecs::_::cpp_type_impl<struct BlenderName>::id(struct ecs_world_t *,char const *,bool)" (?id@?$cpp_type_impl@UBlenderName@@@_@flecs@@SA_KPEAUecs_world_t@@PEBD_N@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_get_scope referenced in function "public: __cdecl flecs::component<signed char>::component<signed char>(struct ecs_world_t *,char const *,bool,unsigned __int64)" (??0?$component@C@flecs@@QEAA@PEAUecs_world_t@@PEBD_N_K@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_set_hooks_id referenced in function "void __cdecl flecs::_::register_lifecycle_actions<struct BlenderName,0>(struct ecs_world_t *,unsigned __int64)" (??$register_lifecycle_actions@UBlenderName@@$0A@@_@flecs@@YAXPEAUecs_world_t@@_K@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_get_type_info referenced in function "public: void __cdecl flecs::_::sig<struct BlenderName,struct ModelTransform>::populate<struct flecs::filter_builder<struct BlenderName,struct ModelTransform> *>(struct flecs::filter_builder<struct BlenderName,struct ModelTransform> * const &)" (??$populate@PEAU?$filter_builder@UBlenderName@@UModelTransform@@@flecs@@@?$sig@UBlenderName@@UModelTransform@@@_@flecs@@QEAAXAEBQEAU?$filter_builder@UBlenderName@@UModelTransform@@@2@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_term_iter referenced in function "public: void __cdecl flecs::world::each<struct BoundingBox,class <lambda_073638db97b026881ffe4de62b71183e> >(class <lambda_073638db97b026881ffe4de62b71183e> &&)const " (??$each@UBoundingBox@@V<lambda_073638db97b026881ffe4de62b71183e>@@@world@flecs@@QEBAX$$QEAV<lambda_073638db97b026881ffe4de62b71183e>@@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_term_next referenced in function "public: void __cdecl flecs::world::each<struct BoundingBox,class <lambda_073638db97b026881ffe4de62b71183e> >(class <lambda_073638db97b026881ffe4de62b71183e> &&)const " (??$each@UBoundingBox@@V<lambda_073638db97b026881ffe4de62b71183e>@@@world@flecs@@QEBAX$$QEAV<lambda_073638db97b026881ffe4de62b71183e>@@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_term_is_initialized referenced in function "public: struct flecs::filter_builder<struct BlenderName,struct ModelTransform> & __cdecl flecs::filter_builder_i<struct flecs::filter_builder<struct BlenderName,struct ModelTransform>,struct BlenderName,struct ModelTransform>::term(void)" (?term@?$filter_builder_i@U?$filter_builder@UBlenderName@@UModelTransform@@@flecs@@UBlenderName@@UModelTransform@@@flecs@@QEAAAEAU?$filter_builder@UBlenderName@@UModelTransform@@@2@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_term_move referenced in function "public: struct ecs_term_t __cdecl flecs::term::move(void)" (?move@term@flecs@@QEAA?AUecs_term_t@@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_term_fini referenced in function "public: virtual __cdecl flecs::term::~term(void)" (??1term@flecs@@UEAA@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_filter_init referenced in function "public: __cdecl flecs::filter_base::filter_base(struct ecs_world_t *,struct ecs_filter_desc_t *)" (??0filter_base@flecs@@QEAA@PEAUecs_world_t@@PEAUecs_filter_desc_t@@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_filter_fini referenced in function "public: __cdecl flecs::filter_base::~filter_base(void)" (??1filter_base@flecs@@QEAA@XZ)
+main.obj : error LNK2019: unresolved external symbol ecs_filter_iter referenced in function "private: virtual struct ecs_iter_t __cdecl flecs::filter<struct BlenderName,struct ModelTransform>::get_iter(struct ecs_world_t *)const " (?get_iter@?$filter@UBlenderName@@UModelTransform@@@flecs@@EEBA?AUecs_iter_t@@PEAUecs_world_t@@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_filter_next referenced in function "private: virtual bool (__cdecl*__cdecl flecs::filter<struct BlenderName,struct ModelTransform>::next_action(void)const )(struct ecs_iter_t *)" (?next_action@?$filter@UBlenderName@@UModelTransform@@@flecs@@EEBAP6A_NPEAUecs_iter_t@@@ZXZ)
+main.obj : error LNK2019: unresolved external symbol ecs_filter_next_instanced referenced in function "private: virtual bool (__cdecl*__cdecl flecs::filter<struct BlenderName,struct ModelTransform>::next_each_action(void)const )(struct ecs_iter_t *)" (?next_each_action@?$filter@UBlenderName@@UModelTransform@@@flecs@@EEBAP6A_NPEAUecs_iter_t@@@ZXZ)
+main.obj : error LNK2019: unresolved external symbol ecs_table_lock referenced in function "private: static void __cdecl flecs::_::each_invoker<class <lambda_073638db97b026881ffe4de62b71183e>,struct BoundingBox>::invoke_callback<struct flecs::_::each_column,struct flecs::_::term_ptr,0>(struct ecs_iter_t *,class <lambda_073638db97b026881ffe4de62b71183e> const &,unsigned __int64,struct flecs::array<struct flecs::_::term_ptr,1,void> &,struct flecs::_::term_ptr)" (??$invoke_callback@Ueach_column@_@flecs@@Uterm_ptr@23@$0A@@?$each_invoker@V<lambda_073638db97b026881ffe4de62b71183e>@@UBoundingBox@@@_@flecs@@CAXPEAUecs_iter_t@@AEBV<lambda_073638db97b026881ffe4de62b71183e>@@_KAEAU?$array@Uterm_ptr@_@flecs@@$00X@2@Uterm_ptr@12@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_table_unlock referenced in function "private: static void __cdecl flecs::_::each_invoker<class <lambda_073638db97b026881ffe4de62b71183e>,struct BoundingBox>::invoke_callback<struct flecs::_::each_column,struct flecs::_::term_ptr,0>(struct ecs_iter_t *,class <lambda_073638db97b026881ffe4de62b71183e> const &,unsigned __int64,struct flecs::array<struct flecs::_::term_ptr,1,void> &,struct flecs::_::term_ptr)" (??$invoke_callback@Ueach_column@_@flecs@@Uterm_ptr@23@$0A@@?$each_invoker@V<lambda_073638db97b026881ffe4de62b71183e>@@UBoundingBox@@@_@flecs@@CAXPEAUecs_iter_t@@AEBV<lambda_073638db97b026881ffe4de62b71183e>@@_KAEAU?$array@Uterm_ptr@_@flecs@@$00X@2@Uterm_ptr@12@@Z)
+main.obj : error LNK2019: unresolved external symbol _ecs_log_push referenced in function "public: void __cdecl flecs::_::enum_type<enum ecs_primitive_kind_t>::init(struct ecs_world_t *,unsigned __int64)" (?init@?$enum_type@W4ecs_primitive_kind_t@@@_@flecs@@QEAAXPEAUecs_world_t@@_K@Z)
+main.obj : error LNK2019: unresolved external symbol _ecs_log_pop referenced in function "public: void __cdecl flecs::_::enum_type<enum ecs_primitive_kind_t>::init(struct ecs_world_t *,unsigned __int64)" (?init@?$enum_type@W4ecs_primitive_kind_t@@@_@flecs@@QEAAXPEAUecs_world_t@@_K@Z)
+main.obj : error LNK2019: unresolved external symbol _ecs_abort referenced in function "public: __cdecl flecs::filter_base::filter_base(struct ecs_world_t *,struct ecs_filter_desc_t *)" (??0filter_base@flecs@@QEAA@PEAUecs_world_t@@PEAUecs_filter_desc_t@@@Z)
+main.obj : error LNK2019: unresolved external symbol _ecs_assert referenced in function "void __cdecl flecs::_::copy_ctor_impl<struct BlenderName>(void *,void const *,int,struct ecs_type_info_t const *)" (??$copy_ctor_impl@UBlenderName@@@_@flecs@@YAXPEAXPEBXHPEBUecs_type_info_t@@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_opaque_init referenced in function "public: struct flecs::component<struct flecs::entity> & __cdecl flecs::component<struct flecs::entity>::opaque<struct flecs::opaque<struct flecs::entity,void> __cdecl(struct flecs::world &)>(struct flecs::opaque<struct flecs::entity,void> (__cdecl&)(struct flecs::world &))" (??$opaque@$$A6A?AU?$opaque@Uentity@flecs@@X@flecs@@AEAUworld@2@@Z@?$component@Uentity@flecs@@@flecs@@QEAAAEAU01@A6A?AU?$opaque@Uentity@flecs@@X@1@AEAUworld@1@@Z@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_cpp_get_type_name referenced in function "char const * __cdecl flecs::_::type_name<unsigned __int64>(void)" (??$type_name@_K@_@flecs@@YAPEBDXZ)
+main.obj : error LNK2019: unresolved external symbol ecs_cpp_get_symbol_name referenced in function "char const * __cdecl flecs::_::symbol_name<struct EcsBitmask>(void)" (??$symbol_name@UEcsBitmask@@@_@flecs@@YAPEBDXZ)
+main.obj : error LNK2019: unresolved external symbol ecs_cpp_get_constant_name referenced in function "char const * __cdecl flecs::_::enum_constant_to_name<enum ecs_primitive_kind_t,17>(void)" (??$enum_constant_to_name@W4ecs_primitive_kind_t@@$0BB@@_@flecs@@YAPEBDXZ)
+main.obj : error LNK2019: unresolved external symbol ecs_cpp_component_validate referenced in function "public: __cdecl flecs::component<signed char>::component<signed char>(struct ecs_world_t *,char const *,bool,unsigned __int64)" (??0?$component@C@flecs@@QEAA@PEAUecs_world_t@@PEBD_N_K@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_cpp_component_register referenced in function "public: __cdecl flecs::component<signed char>::component<signed char>(struct ecs_world_t *,char const *,bool,unsigned __int64)" (??0?$component@C@flecs@@QEAA@PEAUecs_world_t@@PEBD_N_K@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_cpp_component_register_explicit referenced in function "public: static unsigned __int64 __cdecl flecs::_::cpp_type_impl<signed char>::id_explicit(struct ecs_world_t *,char const *,bool,unsigned __int64,bool,bool *)" (?id_explicit@?$cpp_type_impl@C@_@flecs@@SA_KPEAUecs_world_t@@PEBD_N_K2PEA_N@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_cpp_enum_init referenced in function "public: void __cdecl flecs::_::enum_type<enum ecs_primitive_kind_t>::init(struct ecs_world_t *,unsigned __int64)" (?init@?$enum_type@W4ecs_primitive_kind_t@@@_@flecs@@QEAAXPEAUecs_world_t@@_K@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_cpp_enum_constant_register referenced in function "private: static void __cdecl flecs::_::enum_type<enum ecs_primitive_kind_t>::init_constant<1,0>(struct ecs_world_t *)" (??$init_constant@$00$0A@@?$enum_type@W4ecs_primitive_kind_t@@@_@flecs@@CAXPEAUecs_world_t@@@Z)
+main.obj : error LNK2019: unresolved external symbol ecs_cpp_reset_count_get referenced in function "unsigned __int64 __cdecl flecs::type_id<__int64>(void)" (??$type_id@_J@flecs@@YA_KXZ)
+main.obj : error LNK2001: unresolved external symbol ecs_os_api
+main.obj : error LNK2001: unresolved external symbol ECS_FILTER_INIT
+main.obj : error LNK2001: unresolved external symbol ECS_PAIR
+main.obj : error LNK2001: unresolved external symbol ECS_OVERRIDE
+main.obj : error LNK2001: unresolved external symbol ECS_TOGGLE
+main.obj : error LNK2001: unresolved external symbol FLECS__EEcsIdentifier
+main.obj : error LNK2001: unresolved external symbol EcsQuery
+main.obj : error LNK2001: unresolved external symbol EcsObserver
+main.obj : error LNK2001: unresolved external symbol EcsSystem
+main.obj : error LNK2001: unresolved external symbol EcsFlecs
+main.obj : error LNK2001: unresolved external symbol EcsFlecsCore
+main.obj : error LNK2001: unresolved external symbol EcsWorld
+main.obj : error LNK2001: unresolved external symbol EcsWildcard
+main.obj : error LNK2001: unresolved external symbol EcsAny
+main.obj : error LNK2001: unresolved external symbol EcsThis
+main.obj : error LNK2001: unresolved external symbol EcsTransitive
+main.obj : error LNK2001: unresolved external symbol EcsReflexive
+main.obj : error LNK2001: unresolved external symbol EcsFinal
+main.obj : error LNK2001: unresolved external symbol EcsDontInherit
+main.obj : error LNK2001: unresolved external symbol EcsSymmetric
+main.obj : error LNK2001: unresolved external symbol EcsExclusive
+main.obj : error LNK2001: unresolved external symbol EcsAcyclic
+main.obj : error LNK2001: unresolved external symbol EcsTraversable
+main.obj : error LNK2001: unresolved external symbol EcsWith
+main.obj : error LNK2001: unresolved external symbol EcsOneOf
+main.obj : error LNK2001: unresolved external symbol EcsTag
+main.obj : error LNK2001: unresolved external symbol EcsUnion
+main.obj : error LNK2001: unresolved external symbol EcsName
+main.obj : error LNK2001: unresolved external symbol EcsSymbol
+main.obj : error LNK2001: unresolved external symbol EcsChildOf
+main.obj : error LNK2001: unresolved external symbol EcsIsA
+main.obj : error LNK2001: unresolved external symbol EcsDependsOn
+main.obj : error LNK2001: unresolved external symbol EcsSlotOf
+main.obj : error LNK2001: unresolved external symbol EcsModule
+main.obj : error LNK2001: unresolved external symbol EcsPrivate
+main.obj : error LNK2001: unresolved external symbol EcsPrefab
+main.obj : error LNK2001: unresolved external symbol EcsDisabled
+main.obj : error LNK2001: unresolved external symbol EcsOnAdd
+main.obj : error LNK2001: unresolved external symbol EcsOnRemove
+main.obj : error LNK2001: unresolved external symbol EcsOnSet
+main.obj : error LNK2001: unresolved external symbol EcsUnSet
+main.obj : error LNK2001: unresolved external symbol EcsMonitor
+main.obj : error LNK2001: unresolved external symbol EcsOnDelete
+main.obj : error LNK2001: unresolved external symbol EcsOnTableCreate
+main.obj : error LNK2001: unresolved external symbol EcsOnTableDelete
+main.obj : error LNK2001: unresolved external symbol EcsOnDeleteTarget
+main.obj : error LNK2001: unresolved external symbol EcsRemove
+main.obj : error LNK2001: unresolved external symbol EcsDelete
+main.obj : error LNK2001: unresolved external symbol EcsPanic
+main.obj : error LNK2001: unresolved external symbol EcsFlatten
+main.obj : error LNK2001: unresolved external symbol EcsDefaultChildComponent
+main.obj : error LNK2001: unresolved external symbol EcsPredEq
+main.obj : error LNK2001: unresolved external symbol EcsPredMatch
+main.obj : error LNK2001: unresolved external symbol EcsPredLookup
+main.obj : error LNK2001: unresolved external symbol EcsEmpty
+main.obj : error LNK2001: unresolved external symbol FLECS__EEcsPipeline
+main.obj : error LNK2001: unresolved external symbol EcsOnStart
+main.obj : error LNK2001: unresolved external symbol EcsPreFrame
+main.obj : error LNK2001: unresolved external symbol EcsOnLoad
+main.obj : error LNK2001: unresolved external symbol EcsPostLoad
+main.obj : error LNK2001: unresolved external symbol EcsPreUpdate
+main.obj : error LNK2001: unresolved external symbol EcsOnUpdate
+main.obj : error LNK2001: unresolved external symbol EcsOnValidate
+main.obj : error LNK2001: unresolved external symbol EcsPostUpdate
+main.obj : error LNK2001: unresolved external symbol EcsPreStore
+main.obj : error LNK2001: unresolved external symbol EcsOnStore
+main.obj : error LNK2001: unresolved external symbol EcsPostFrame
+main.obj : error LNK2001: unresolved external symbol EcsPhase
+main.obj : error LNK2001: unresolved external symbol EcsDocBrief
+main.obj : error LNK2001: unresolved external symbol EcsDocDetail
+main.obj : error LNK2001: unresolved external symbol EcsDocLink
+main.obj : error LNK2001: unresolved external symbol EcsDocColor
+main.obj : error LNK2001: unresolved external symbol EcsConstant
+main.obj : error LNK2001: unresolved external symbol EcsQuantity
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_bool_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_char_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_byte_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_u8_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_u16_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_u32_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_u64_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_uptr_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_i8_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_i16_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_i32_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_i64_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_iptr_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_f32_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_f64_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_string_t
+main.obj : error LNK2001: unresolved external symbol FLECS__Eecs_entity_t
+C:\Users\kdlit\OneDrive\Documents\GitHub\dev4-team-project-2406-team-green-2406\Anvil Ascension2\Debug\Anvil_Ascension.exe : fatal error LNK1120: 137 unresolved externals

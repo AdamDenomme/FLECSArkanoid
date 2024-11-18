@@ -1,0 +1,12 @@
+This folder contains base code the team can use to create their game.
+To build this project you need to install CMake and have the Windows SDK.
+This sample uses DirectX11 for debug rendering, you will need to add an actual renderer.
+
+Software: 
+https://CMake.org
+
+After installing reboot your machine and run: "cmake -S ./ -B ./build"
+in a command prompt located in this folder. The .sln will be in the build folder.
+
+One your team has settled on a name you should replace all references to Example Shape Game.
+The main place to do this is in the CMakeLists.txt file, but should also be done in the code.

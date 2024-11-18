@@ -1,0 +1,18 @@
+# Blender 4.1.1 MTL File: 'Level1.blend'
+# www.blender.org
+
+newmtl Cooper_Wire
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+illum 2
+Pr 0.552786
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd C:/Users/julia/Desktop/Github Repos/dev4-team-project-2406-team-green-2406/Anvil Ascension/Textures/Cooper_Wire_basecolor.jpg
+map_Pm C:/Cooper_Wire_metallic.jpg
+map_d C:/Cooper_Wire_metallic.jpg
+map_Bump -bm 2.000000 C:/Cooper_Wire_normal.jpg

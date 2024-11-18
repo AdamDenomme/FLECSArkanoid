@@ -1,0 +1,10 @@
+^C:\USERS\KDLIT\ONEDRIVE\DOCUMENTS\GITHUB\DEV4-TEAM-PROJECT-2406-TEAM-GREEN-2406\ANVIL ASCENSION2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/kdlit/OneDrive/Documents/GitHub/dev4-team-project-2406-team-green-2406/Anvil Ascension2" "-BC:/Users/kdlit/OneDrive/Documents/GitHub/dev4-team-project-2406-team-green-2406/Anvil Ascension2" --check-stamp-file "C:/Users/kdlit/OneDrive/Documents/GitHub/dev4-team-project-2406-team-green-2406/Anvil Ascension2/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
